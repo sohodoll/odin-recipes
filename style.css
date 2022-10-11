@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.041);
+    padding: 40px;
+    border-radius: 10%;
+}
+
+.title {
+    background-color: antiquewhite;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.062);
+}
+
+.recipe {
+    background-color: rgba(193, 109, 226, 0.2);
+}
+
+.recipe:hover {
+    background-color: rgba(193, 109, 226, 0.5);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.054);
+}
